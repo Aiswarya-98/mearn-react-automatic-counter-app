@@ -1,0 +1,31 @@
+.container {
+  background-color: rgba(95, 158, 160, 0.285);
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.main-box {
+  background-color: rgba(250, 235, 215, 0.901);
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  height: 400px;
+  width: 600px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.main-box h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+}
+
+.button {
+  padding: 40px;
+}
